@@ -1,0 +1,38 @@
+<!--
+  ~ Copyright (C) 2023 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Inventário</string>
+    <string name="attention">Atenção</string>
+    <string name="back_button">Atrás</string>
+    <string name="delete">Deletar</string>
+    <string name="delete_question">Você tem certeza que deseja deletar?</string>
+    <string name="no_item_description">Oops!\nSem items no inventário.\nClique + para adicionar.</string>
+    <string name="edit_item_title">Editar Item</string>
+    <string name="item">Item</string>
+    <string name="item_detail_title">Detalhes do Item</string>
+    <string name="item_entry_title">Adicionar Item</string>
+    <string name="item_name_req">Nome do Item*</string>
+    <string name="item_price_req">Preço do Item*</string>
+    <string name="no">Não</string>
+    <string name="price">Preço</string>
+    <string name="quantity_in_stock">Quantidade no estoque</string>
+    <string name="in_stock">%d No estoque</string>
+    <string name="quantity_req">Quantidade no estoque*</string>
+    <string name="save_action">Salvar</string>
+    <string name="sell">Vender</string>
+    <string name="yes">Sim</string>
+    <string name="required_fields">*Campos Obrigatórios</string>
+</resources>
