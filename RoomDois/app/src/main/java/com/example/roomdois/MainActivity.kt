@@ -21,8 +21,46 @@ class MainActivity : AppCompatActivity() {
         //Insert, observe como fazemos o insert, passando uma instância de UsuarioModel, com os atributos alterados:
         val retornoInsert = usuarioDatabase.insertUser(UsuarioModel().apply {
             //this.id_usuario = 1
-            this.nome = "Arthur Moreira"
+
+            this.id_usuario = 1
+            this.nome = "Davi Duarte"
             this.idade = 17
+
+            this.id_usuario = 2
+            this.nome = "Maria"
+            this.idade = 21
+
+            this.id_usuario = 3
+            this.nome = "Breno"
+            this.idade = 30
+
+            this.id_usuario = 4
+            this.nome = "Moreira"
+            this.idade = 10
+
+        })
+
+        val updateUser = usuarioDatabase.updateUser(UsuarioModel().apply{
+
+            this.id_usuario = 2
+            this.nome = "Pedro"
+            this.idade = 70
+
+            this.id_usuario = 3
+            this.nome = "Rodrigo"
+            this.idade = 13
+
+        })
+
+        val deleteUser = usuarioDatabase.deleteUser(UsuarioModel().apply{
+            this.id_usuario = 4
+            this.nome = "Moreira"
+            this.idade = 10
+
+
+            this.id_usuario = 2
+            this.nome = "Pedro"
+            this.idade = 70
         })
 
         val retornoSelectMultiplo = usuarioDatabase.getAll()//Retorna todos os registros
